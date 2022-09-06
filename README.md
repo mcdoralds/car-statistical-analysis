@@ -1,4 +1,4 @@
-# databootcamp-car-statistical-analysis
+# Car Analysis using R Statistics
 
 ## Linear Regression to Predict MPG
 We've been tasked with answering the following questions:
@@ -69,4 +69,15 @@ The results of the T-test for Lot 3 suspension coils indicates that they are _sl
 ![image](https://user-images.githubusercontent.com/31219195/188524553-d5da9735-c797-43cd-9a17-6960c025e99e.png)
 
 
+## Study Design: MechaCar vs Competition
 
+There are many factors that car buyers take into consideration when shopping for a new vehicle. In order for MechaCar to outperform its competitors, the data needs to show in further detail how MechaCar's attributes make it the best car in the market.
+
+- **Metrics tested:** Carrying capacity, Acceleration, Battery Life
+- **Hypotheses**
+  - H0: MechaCar's average carrying capacity, acceleration, and battery life are all similar to competitors'
+  - MechaCar's average carrying capacity, acceleration, and battery life contribute to overall better MPG and a better vehicle overall.
+
+- **Methods:** Two-sample t-tests
+
+- **Data needed:** Gather cubic space, acceleration speed, and battery life data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
