@@ -38,3 +38,35 @@ The purpose of creating a summary statistics table for the suspension coil datas
 ![image](https://user-images.githubusercontent.com/31219195/188524053-58aa713c-6827-4d59-afe9-9361005c00a2.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total, as shown in the overall summary. However, the lot-by-lot breakdown shows that lot 3's variance exceeds the 100 limit.
+
+
+## T-Tests on Suspension Coils
+We performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+**Overall**
+
+The results of the T-test for the suspension coils across all manufacturing lots indicate that they are not statistically different from the population mean. The p-value is not low enough to reject the null hypothesis.
+
+![image](https://user-images.githubusercontent.com/31219195/188524471-5f87a24f-a1d5-4498-a5cb-db43cadc00d4.png)
+
+**Lot 1**
+
+The results of the T-test for Lot 3 suspension coils indicates they are not statistically different from the population mean. The p-value is not low enough to reject the null hypothesis.
+
+![image](https://user-images.githubusercontent.com/31219195/188524519-35536ff6-cfa5-400b-8b55-8f1771b9242d.png)
+
+**Lot 2**
+
+The results of the T-test for Lot 3 suspension coils indicates they are not statistically different from the population mean. The p-value is not low enough to reject the null hypothesis.
+
+![image](https://user-images.githubusercontent.com/31219195/188524536-3c1c600e-49de-4497-9c11-8b6e5d7206ed.png)
+
+
+**Lot 3**
+
+The results of the T-test for Lot 3 suspension coils indicates that they are _slightly_ statistically different from the population mean. The p-value is low enough to reject the null hypothesis. Lot 3 should be looked into with further detail or be discarded from the dataset.
+
+![image](https://user-images.githubusercontent.com/31219195/188524553-d5da9735-c797-43cd-9a17-6960c025e99e.png)
+
+
+
