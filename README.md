@@ -23,3 +23,18 @@ Doing so yielded the following results:
 2. The slope of the linear model has a p-value of 5.35x10(^-11) and therefore not a zero slope. In other words, the relationship between the variables are statistically correlated to the MPG. We therefore reject the null hypothesis.
 
 3. The r-squared is 0.7149 and the adjusted r-squared is 0.6825, meaning the model is less than 75% accurate. The model is only moderately effective in predicting MPG.
+
+## Summary Statistics on Suspension Coils
+The purpose of creating a summary statistics table for the suspension coil dataset is to see the following:
+- The suspension coil’s PSI continuous variable across all manufacturing lots
+- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+**Summary Statistics of Suspension Coil dataset**
+
+![image](https://user-images.githubusercontent.com/31219195/188523977-85277c98-9255-447d-8505-cfdc6607eca1.png)
+
+**Summary for each lot**
+
+![image](https://user-images.githubusercontent.com/31219195/188524053-58aa713c-6827-4d59-afe9-9361005c00a2.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total, as shown in the overall summary. However, the lot-by-lot breakdown shows that lot 3's variance exceeds the 100 limit.
