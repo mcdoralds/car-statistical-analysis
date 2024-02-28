@@ -1,4 +1,6 @@
-# Car Analysis using R Statistics
+# Car Analysis using R
+
+![image](https://github.com/mcdoralds/databootcamp-car-statistical-analysis/assets/31219195/a8fdd3b7-5834-4013-8404-eddeb00b6ff3)
 
 ## Linear Regression to Predict MPG
 We've been tasked with answering the following questions:
